@@ -1,0 +1,44 @@
+img{
+    height: 220px;
+    width: 200px;
+  }
+  
+  .container{
+    position: relative;
+    display: inline-block;
+    
+  }
+  .offer{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    color: rgba(219, 219, 219, 1);
+    background-color: black;
+    font-size: 14px;
+    font-family: Arial;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .overlay{
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    height: 65px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button{
+    font-family: Arial;
+    font-size: 10px;
+    padding: 8px 12px 8px 12px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    border-radius: 3px;
+  }
